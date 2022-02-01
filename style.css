@@ -1,0 +1,62 @@
+body {
+    margin-left: 10%;
+    padding-right: 500px;
+}
+.btn {
+    color: black;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.bbb {
+    background: black;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.bbb:hover{
+    opacity: 0,8;
+}
+.hhh {
+outline: black;
+resize: none;
+margin-top: 40px;
+}
+.ooo {
+margin-bottom: 50px;
+}
+.form_body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51, 51, 51, 0.9) url(photo1643289049.jpeg) center / 50px no-repeat;
+    visibility: hidden;
+}
+.form_body._sending::after {
+    opacity: 1;
+    visibility: visible
+}
+.ss {
+    border:1px solid #ccc;
+    background:#000000;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.sss {
+    border:1px solid #ccc;
+    background:#000000;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.ssss {
+    border:1px solid #ccc;
+    background:#000000;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
